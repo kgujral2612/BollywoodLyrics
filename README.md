@@ -1,4 +1,4 @@
-# HindiLyrics (WIP)
+# BollywoodLyrics (WIP)
 
 Project for CS510- Adventures in NLP class by Prof. Ameeta Agrawal @ Portland State University.
 
