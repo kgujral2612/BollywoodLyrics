@@ -154,4 +154,4 @@ for line in lyrics:
     print(string.capwords(line))
 print("====================\n")
 
-print("Perplexity: ",math.exp(sum_of_log/total_pred))
+print("Perplexity: ", math.exp(sum_of_log/total_pred))
