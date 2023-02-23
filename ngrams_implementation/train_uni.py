@@ -14,7 +14,7 @@ def write_file(path, content):
 
 text = read_file("ngrams_implementation/all_lyrics.txt")
 text = text.replace("<start> ","").replace(" <end>","")
-sentences = text.lower().split("\n")
+sentences = text.split("\n")
 temp = [(word_tokenize(i)+["<end>"]) for i in sentences]
 
 tokens = []
