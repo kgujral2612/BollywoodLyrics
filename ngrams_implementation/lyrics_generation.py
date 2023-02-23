@@ -1,7 +1,7 @@
 import json
 import math
 import random
-
+import string
 
 def list_of_random_nums(limit, size):
     counter = 0
@@ -18,6 +18,7 @@ def list_of_random_nums(limit, size):
 # user input
 print("Please enter a rhyme scheme. For eg: AABB, ABAB, ABCABC, AACBBC, etc: ")
 rhyme_scheme = input()
+print("The number of lines per stanza will be ", len(rhyme_scheme))
 print("Please enter the number of stanzas you'd like to generate: ")
 stanza = int(input())
 # identify types such as 'A', 'B', 'C', et cetera
@@ -45,7 +46,6 @@ while (True):
         dicttemp[tuple(dict3["k"+str(count)])] = dict3[("v"+str(count))]
         count = count + 1
     else:
-        print("dict3 - ", str(count))
         dict3 = dicttemp
         dicttemp = {}
         break
@@ -73,8 +73,6 @@ for line in range(stanza):
     for last_two_words in rhyme_scheme:
         rhyme.append(main_dic_for_rhyme[last_two_words][line])
     rhyme.append(" ")
-
-print(rhyme)
 
 sum_of_log = 0
 total_pred = 0
@@ -149,10 +147,11 @@ for i in rhyme:
                 previous = [predicted, previous[0]]
                 final = [predicted] + final
 
+# pretty print the lyrics
+print("====================\n")
+for line in lyrics:
+    line = line.replace("<start>", "")
+    print(string.capwords(line))
+print("====================\n")
 
-for i in lyrics:
-    print(i)
-
-
-print(" Perplexity:")
-print(math.exp(sum_of_log/total_pred))
+print("Perplexity: ",math.exp(sum_of_log/total_pred))
