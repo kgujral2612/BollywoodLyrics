@@ -9,7 +9,7 @@ def train(lines):
             x, y = temp[idx:idx+2]
             if y not in bigrams_dict.keys():
                 bigrams_dict[y]=[]
-            bigrams_dict[y].append(a)
+            bigrams_dict[y].append(x)
     return bigrams_dict
 
 f = open("ngrams_implementation/all_lyrics.txt", "r", encoding="utf-8")
