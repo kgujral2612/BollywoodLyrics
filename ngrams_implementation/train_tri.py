@@ -12,7 +12,7 @@ def train(lines):
             trigrams_dict[tuple([x,y])].append(z)
     return trigrams_dict
 
-f = open("ngrams_implementation/all_lyrics.txt", "r", encoding="utf-8")
+f = open("all_lyrics.txt", "r", encoding="utf-8")
 text = f.read().lower()
 f.close()
 

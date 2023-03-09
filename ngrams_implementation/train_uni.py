@@ -12,7 +12,7 @@ def write_file(path, content):
     json.dump(content, file, sort_keys=True, indent=4)
     file.close()
 
-text = read_file("ngrams_implementation/all_lyrics.txt")
+text = read_file("all_lyrics.txt")
 text = text.replace("<start> ","").replace(" <end>","")
 sentences = text.split("\n")
 temp = [(word_tokenize(i)+["<end>"]) for i in sentences]

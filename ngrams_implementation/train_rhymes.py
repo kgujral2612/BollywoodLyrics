@@ -1,5 +1,5 @@
 import re,json
-file = open('ngrams_implementation/all_lyrics.txt','r')
+file = open('all_lyrics.txt','r')
 lines = file.read().split("\n")
 file.close()
 
