@@ -12,7 +12,7 @@ def train(lines):
             bigrams_dict[y].append(x)
     return bigrams_dict
 
-f = open("ngrams_implementation/all_lyrics.txt", "r", encoding="utf-8")
+f = open("all_lyrics.txt", "r", encoding="utf-8")
 text = f.read().lower()
 f.close()
 
