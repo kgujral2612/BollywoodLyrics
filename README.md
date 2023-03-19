@@ -11,6 +11,8 @@ This code contains 3 implementations for lyrics generation.
 2) LSTM
 3) GPT-2 (Hing GPT)
 
+The project report contains details about the model implementation, results, conclusion and direction for future work. It can be found at [this link](https://drive.google.com/file/d/1X1PLt1ncoadn44EdO2PlUgGAGV0D1Urm/view?usp=share_link).
+
 ### Sample Results
 ##### NGrams
 ```diff
