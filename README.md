@@ -13,6 +13,7 @@ This code contains 3 implementations for lyrics generation.
 
 ### Sample Results
 ##### NGrams
+```diff
 Kishmish Varga Meetha Sa Dard Hone Lagaa
 Katil Aankhon Wale Dilbur Matwale Dil Hai Mushkil Hai
 Chaahe Jo Maang Le Tu Ragon Mein Hone Lagaa
@@ -22,8 +23,11 @@ Ye Dil Hai Dil Kaa Kasam Aisa Lagaa
 Tell Me Baby Kyaa Khayaal Hai
 Har Karam Chaaha Tujhe Aisa Lagaa
 Now Tell Me Baby Kyaa Khayaal Hai
+```
 
 ##### LSTM
+```diff
+
 Pahale Kabhi Ajanabi The Ab Khud Hi Door Hai
 Ladkhadaaye Kadam Chale Aaye Ab Door Hai
 Duaoon Ki Mujhe Zarurat Hai
@@ -34,8 +38,13 @@ Saanso Me Tu Aur Hai
 Kuch Tum Kehna Inaki Aadat Hai
 Tumhein Jo Maine Dekha Nahi Hai Koi Aur Hai
 Jaan Chali Naa Jaaye Koyi Aur Hai
+```
+
+
 
 ##### GPT-2
+
+```diff
 soona sa main 
 hain suuni see bahen ye meri 
 teri taraf hee jaati raahen ye meri 
@@ -45,4 +54,7 @@ main bhul sa gaya hoon muskuraana
 bar is hon ke sang tum bhee aa jan aa 
 main bhul sa gaya hoon muskuraana 
 bar is hon ke sang tum bhee aa jan aa 
+
+```
+
 
