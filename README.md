@@ -5,6 +5,8 @@ Project for CS510- Adventures in NLP class by Prof. Ameeta Agrawal @ Portland St
 This is an automatic Lyrics Generator for Romanized Hindi based on [this research paper](https://arxiv.org/pdf/2007.12916.pdf). 
 The original implementation of the paper can be found on [this github repository](https://github.com/lingo-iitgn/Bollyrics).
 
+The journey behind this repo has been summarized in [this medium article](https://medium.com/@kgujral_49148/lyrics-generation-in-romanized-hindi-using-n-grams-lstm-gpt-models-29c9fbb73829). Be sure to check that out!
+
 This code contains 3 implementations for lyrics generation.
 
 1) ngrams-based model
